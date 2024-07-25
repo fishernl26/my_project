@@ -1,0 +1,16 @@
+name: geology-map
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - matplotlib
+  - matplotlib-scalebar
+  - geopandas
+  - shapely
+  - pandas
+  - numpy
+  - contextily
+  - pip
+  - pip:
+    - matplotlib-scalebar
